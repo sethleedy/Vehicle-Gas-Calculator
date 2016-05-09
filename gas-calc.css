@@ -1,0 +1,163 @@
+
+		body, html {
+		  height: 100%;
+		}
+
+		a {
+			text-decoration: none;
+		}
+		
+		#header {
+			margin: 10px 8px 0 8px;
+		}
+		#header a {
+			font-family: Arial;
+			font-size: 40px;
+			color: blue;
+		}
+		#subheader {
+			font-family: Arial;
+			font-style: italic;
+			font-size: 15px;
+			color: lightblue;
+		}
+		#tabsdiv ul li a {
+			background: #3498db;
+			background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+			background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+			background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+			background-image: -o-linear-gradient(top, #3498db, #2980b9);
+			background-image: linear-gradient(to bottom, #3498db, #2980b9);
+			-webkit-border-radius: 20;
+			-moz-border-radius: 20;
+			border-radius: 20px;
+			font-family: Arial;
+			color: #ffffff;
+			font-size: 14px;
+			padding: 10px 20px 10px 20px;
+			text-decoration: none;
+		}
+
+		#tabsdiv ul li a:hover {
+			background: #3cb0fd;
+			background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+			background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+			background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+			background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+			background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+			text-decoration: none;
+		}
+
+		.calculator_div	{
+			font-family:verdana, arial, sans-serif;
+			border:2pt solid #4444FF;
+			padding:25px;
+			width:600px;
+			margin:auto;
+
+		}
+
+		label {
+			display:block;
+			float:left;
+			width:80px;
+		}
+
+		.label {
+			display:inline;
+			float:none;
+			width:75px;
+			font-size:11px
+		}
+
+		#map-canvas {
+			height: 100vh;
+			margin: 0px;
+			padding: 0px
+		}
+		#panel {
+			position: absolute;
+			top: 5px;
+			left: 50%;
+			margin-left: -180px;
+			z-index: 5;
+			background-color: #fff;
+			padding: 5px;
+			border: 1px solid #999;
+		}
+
+		#directions-panel {
+			height: 100%;
+			float: right;
+			width: 390px;
+			overflow: auto;
+		}
+
+		#map-canvas {
+			margin-right: 400px;
+		}
+
+		#control {
+			background: #fff;
+			padding: 5px;
+			font-size: 14px;
+			font-family: Arial;
+			border: 1px solid #ccc;
+			box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+			display: none;
+		}
+		
+		#content {
+			height: 100%;
+			width: 100%;
+		}
+		.data {
+			width: 100%;
+		}
+		
+		.jtab-nav{
+			float: left;
+			margin: 0 0px 10px 0px;
+			padding: 0px 0px 0px 0px;
+			list-style: none;
+			display: block;
+		}
+
+		.jtab-nav li{
+			float: left;
+			margin: 0px 10px 0px 0px;
+		}
+
+		.jtab-nav li.active a{
+			color: red;
+		}
+		.jtab-nav li.hover a{
+			background-color: blue;
+		}
+
+		.jtab-tab{
+			
+			float: left;
+			margin: 0px 0px 10px 0px;
+			padding: 0px 0px 0px 0px;
+
+			text-align: center;
+			background-color: #cfcfcf;
+		}
+
+		#tabsdiv {
+			margin: 2px;
+		}
+		#tabsdiv ul li {
+			margin-top: 4px;
+			margin-bottom: 4px;
+		}
+
+        #Gas-div {
+            margin: auto;
+            width: 300px;
+        }
+        
+        .tab1 h6 {
+            margin-top: 0;
+        }
